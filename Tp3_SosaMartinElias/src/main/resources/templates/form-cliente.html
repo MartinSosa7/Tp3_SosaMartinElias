@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Cliente</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<header id="header">Formulario Cliente</header>
+	<h1>Completar Formulario</h1>
+	<nav class="navbar"> 
+		<a href="/index" class="nav-link">PRINCIPAL</a>
+		<a href="#" class="nav-link">ADICIONAL</a>
+		<a href="/form" class="nav-link">FORMULARIO CLIENTE</a>
+		<a href="#" class="nav-link">PIE DE PAGINA</a>
+	</nav>
+	
+	<div class="center-form">
+	
+		<form action="">
+		
+		<label for="dni">Ingrese DNI</label>
+		<input type="text" id="dni" name="dni" required> <br>
+		
+		<label for="nombres">Nombres</label>
+		<input type="text" id="nombres" name="nombres" required> <br>
+		<label for="apellidos">Apellidos</label>
+		<input type="text" id="apellidos" name="apellidos" required> <br>
+		
+		<label for="fecha">Fecha de nacimiento</label> <br>
+		<input type="date" id="fecha" name="fecha" required> <br>
+		
+		<div>
+			<p>Seleccione Genero</p>
+			<input type="radio" id="generoM" name="genero">	
+			<label for="generoM">Masculino</label> <br>
+			<input type="radio" id="generoF" name="genero">
+			<label for="generoF">Femenino</label> <br>
+			<input type="radio" id="generoX" name="genero">
+			<label for="generoX">X</label>	
+		</div>
+		
+		<label for="email">Correo electronico: </label>
+		<input type="email" id="email" name="email" required> <br>
+		
+		<label for="domicilio">Domicilio: </label>
+		<input type="text" id="domicilio" name="domicilio" required> <br>
+		
+		<label for="provincia">Seleccione Provincia</label>
+		<select id="provincia" name="provincia" required>
+			<option value="Jujuy">Jujuy</option>
+			<option value="Salta">Salta</option>
+			<option value="Buenos Aires">Buenos Aires</option>
+		</select> <br>
+		
+		
+		<label for="telefono">Numero de telefono celular: </label>
+		<input type="number" id="telefono" name="telefono">
+		
+		<div>
+			<p>Seleccione Intereses</p>
+			<input type="checkbox" id="deportes" name="deportes">
+			<label for="Deportes">Deportes</label> <br>
+			<input type="checkbox" id="musica" name="musica">
+			<label for="musica">Musica</label> <br>
+			<input type="checkbox" id="idiomas" name="idiomas">
+			<label for="idiomas">Idiomas</label>
+		</div> <br>
+		
+		
+		<label for="textArea">Sugerencias para la empresa</label> <br>
+		<textarea rows="7" cols="40" id="textArea" name="textArea"></textarea> <br>
+		
+		<label for="contraseña">Contraseña</label>
+		<input type="password" id="contraseña" name="contraseña" required> <br>
+		
+		
+		<div>
+			<p><strong> Importante </strong> </p>
+			<label for="terminos">Acepto terminos y condiciones</label>
+			<input type="checkbox" id="terminos" name="terminos" required> <br>
+			<label for="infoRelativa">Acepto recibir informacion relativa a la empresa</label>
+			<input type="checkbox" id="infoRelativa" name="infoRelativa">		
+		</div> 
+		
+		
+		<input type="submit" class="button">
+		
+		</form>
+		
+	
+	
+	
+	
+	</div>
+	<footer id="footer">
+        <p>Contacto: martinchoelias02@gmail.com</p>
+        <p>Redes Sociales:
+            <a href="#" class="footer-link">Facebook</a>,
+            <a href="#" class="footer-link">Twitter</a>,
+            <a href="#" class="footer-link">Instagram</a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
